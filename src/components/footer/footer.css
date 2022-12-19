@@ -1,0 +1,12 @@
+.footer{
+    margin-top: 100px;
+    background: linear-gradient(265.48deg, #095ACD 33.12%, #006AFF 84.7%);
+}
+
+.footer__wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}

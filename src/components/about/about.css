@@ -1,0 +1,40 @@
+.about__main__hero{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.about__main__hero a{
+    text-decoration: none;
+}
+.about__main__hero a:last-child{
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+margin-left: 10px;
+margin-top: 5px;
+color: #000000;
+}
+
+.about__title{
+    font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+color: #333333;
+margin-top: 70px;
+}
+
+.about__items{
+    width: 70%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.about__items span{
+    font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+color: #333333;
+display: block;
+margin: 10px 0;
+}

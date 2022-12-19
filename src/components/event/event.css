@@ -1,0 +1,230 @@
+.add__event__main__hero{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.add__event__main__hero a{
+    text-decoration: none;
+}
+.add__event__main__hero a:last-child{
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+margin-left: 10px;
+margin-top: 5px;
+color: #000000;
+}
+
+.add__event__title{
+    font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+color: #333333;
+margin-top: 70px;
+margin-bottom: 20px;
+}
+
+.add__event__form__wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+.form__box{
+    background: #FFFFFF;
+border: 1px solid rgba(51, 51, 51, 0.1);
+border-radius: 2px;
+padding: 30px;
+margin: 20px 0;
+}
+
+.add__event__form h2{
+    font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+
+.form__label{
+    font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+margin-top: 10px;
+color: #333333;
+}
+
+.form__box__wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.form__box__item{
+    width: 47% !important;
+}
+
+.edit__camera__button {
+    display: block;
+    padding: 16px;
+    border: none;
+    text-align: center;
+    background: #006AFF;
+    border-radius: 3px;
+    width: 160px;
+  }
+  .image__uploader{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+  }
+  .image__wrapper{
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image__wrapper label{
+    position: absolute;
+    font-size: 20px;
+  }
+  
+.edit__camera__button input[accept*="camera"] {
+    display: none;
+  }
+.edit__camera__button span{
+    font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+  .edit__button__img{
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.alert__label{
+    font-weight: 400;
+font-size: 12px;
+line-height: 19px;
+margin-top: 20px;
+color: #006AFF;
+}
+
+.button__wrapper{
+    margin-top: 20px;
+}
+
+.button__wrapper button{
+    background: #FFFFFF;
+opacity: 0.4;
+border: 1px solid #B2BBC8;
+border-radius: 3px;
+padding: 13px 16px;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #B2BBC8;
+}
+
+.button__wrapper button:last-child{
+    margin-left: 30px;
+    background: #006AFF;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.modal__wrapper{
+    width: 100%;
+    height: 100vh;
+    min-height: 800px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #c1bfbf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.modal__content{
+    width: 400px;
+    height: 380px;
+    background: #FFFFFF;
+border-radius: 20px;
+display: flex;
+justify-content: left;
+align-items: center;
+padding: 0 20px;
+flex-direction: column;
+text-align: center;
+}
+.modal__content h2{
+    font-weight: 600;
+font-size: 30px;
+margin-top: 20px;
+color: #000000;
+}
+.modal__content span{
+    font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+/* or 146% */
+
+
+color: #000000;
+}
+.modal__content button{
+    background: #006AFF;
+border-radius: 4px;
+font-weight: 400;
+font-size: 22px;
+padding: 0 20px;
+color: #FFFFFF;
+border: none;
+margin-top: 50px;
+}
+.modal__content p{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    margin-left: 20em;
+    margin-top: -10px;
+    background: #006AFF;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    transform: rotate(45deg);
+}
+.get__event__hero{
+    display: flex;
+    align-items: center;
+}
+.get__event__hero a{
+    text-decoration: none;
+}
+.get__event__hero span{
+    font-weight: 400;
+font-size: 16px;
+margin-left: 10px;
+color: #000000;
+}
+
+.founded__event{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.founded__event__left{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
